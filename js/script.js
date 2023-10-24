@@ -50,3 +50,10 @@ const studenti=[
      },
  
 ]
+
+const aula = studenti.map((el)=>el.stnome)
+console.log(aula)
+const votialti = studenti.filter((votialti)=>votialti.voto > 70)
+console.log(votialti)
+const votiidalto = votialti.filter((votialti)=> votialti.id > 120)
+console.log(votiidalto)
