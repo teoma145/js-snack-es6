@@ -91,9 +91,36 @@ console.log(votiidalto)
 ]
 let bicileggera = bici[0]
  bici.forEach(({ nomebici, peso }) => {
-   console.log(`Bicicletta: ${nomebici}, Peso: ${peso} kg`);
    if(peso < bicileggera.peso){
-      bicileggera = {nomebici,peso}
-      console.log(bicileggera)
+      bicileggera = {nome: nomebici, peso: peso }
+      console.log(`la bici più leggera è ${bicileggera.nome} e pesa ${bicileggera.peso}kg`)
    }
  });
+
+ const squadreDiCalcio = [
+   { nome: 'Squadra1',
+    punti: 0, 
+    falliSubiti: 0 
+   },
+   { nome: 'Squadra2', 
+   punti: 0, 
+   falliSubiti: 0 
+},
+   { nome: 'Squadra3', 
+   punti: 0, 
+   falliSubiti: 0 
+},
+   { nome: 'Squadra4', 
+   punti: 0, 
+   falliSubiti: 0 
+},
+   
+ ];
+
+ 
+ 
+ 
+ function Randomnumber(min, max) {
+   return Math.floor(Math.random() * (max - min + 1) + min);
+ }
+ 
