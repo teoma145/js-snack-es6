@@ -123,4 +123,16 @@ let bicileggera = bici[0]
  function Randomnumber(min, max) {
    return Math.floor(Math.random() * (max - min + 1) + min);
  }
- 
+
+ const falliegol = squadreDiCalcio.map((squadra) => ({
+   nome: squadra.nome,
+   punti: Randomnumber(0, 150), 
+   falliSubiti: Randomnumber(0,100) 
+ }));
+ console.log(falliegol);
+
+ const nomiefalli = falliegol.map(({ nome, falliSubiti }) => ({
+  nome,
+  falliSubiti
+}));
+console.log(nomiefalli);
