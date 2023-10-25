@@ -58,3 +58,33 @@ console.log(votialti)
 const votiidalto = votialti.filter((votialti)=> votialti.id > 120)
 console.log(votiidalto)
 
+ bici = [
+   {
+      nomebici: 'pippo',
+      peso: 20
+   },
+   {
+      nomebici: 'pluto',
+      peso: 24
+   },
+   {
+      nomebici: 'mario',
+      peso: 26
+   },
+   {
+      nomebici: 'luigi',
+      peso: 27
+   },
+   {
+      nomebici: 'wario',
+      peso: 22
+   }, 
+   {
+      nomebici: 'empen',
+      peso: 31
+   },
+   {
+      nomebici: 'robina',
+      peso: 17
+   },
+ ]
