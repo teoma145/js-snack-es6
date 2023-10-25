@@ -87,4 +87,13 @@ console.log(votiidalto)
       nomebici: 'robina',
       peso: 17
    },
- ]
+
+]
+let bicileggera = bici[0]
+ bici.forEach(({ nomebici, peso }) => {
+   console.log(`Bicicletta: ${nomebici}, Peso: ${peso} kg`);
+   if(peso < bicileggera.peso){
+      bicileggera = {nomebici,peso}
+      console.log(bicileggera)
+   }
+ });
