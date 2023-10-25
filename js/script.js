@@ -96,7 +96,8 @@ let bicileggera = bici[0]
       
    }
  });
- console.log(`la bici più leggera è ${bicileggera.nome} e pesa ${bicileggera.peso}kg`)
+ const biciel=document.getElementById('bici')
+ biciel.innerHTML=`la bici più leggera è ${bicileggera.nome} e pesa ${bicileggera.peso}kg`
  
 
  const squadreDiCalcio = [
@@ -138,3 +139,8 @@ let bicileggera = bici[0]
   falliSubiti
 }));
 console.log(nomiefalli);
+const squadreel=document.getElementById('squadre')
+nomiefalli.forEach((element)=>{
+   squadreel.innerHTML +=` la squadra ${element.nome} ha subito ${element.falliSubiti} falli .<br>` 
+})
+
