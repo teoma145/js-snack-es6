@@ -58,16 +58,3 @@ console.log(votialti)
 const votiidalto = votialti.filter((votialti)=> votialti.id > 120)
 console.log(votiidalto)
 
-function stampaPersona(vino,index) {
-    console.log(vino.nome + ' ha ' + vino.eta + ' anni.' + 'e ha'+index);
-  }
-  
-  // Creiamo un array di oggetti
-  var persone = [
-    { nome: 'Alice', eta: 25 },
-    { nome: 'Bob', eta: 30 },
-    { nome: 'Charlie', eta: 35 }
-  ];
-  
-  // Iteriamo sull'array utilizzando forEach e chiamiamo la funzione per ogni oggetto
-  persone.forEach(stampaPersona);
