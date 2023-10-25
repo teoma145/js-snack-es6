@@ -81,11 +81,11 @@ console.log(votiidalto)
    }, 
    {
       nomebici: 'empen',
-      peso: 31
+      peso: 17
    },
    {
       nomebici: 'robina',
-      peso: 17
+      peso: 31
    },
 
 ]
@@ -93,9 +93,11 @@ let bicileggera = bici[0]
  bici.forEach(({ nomebici, peso }) => {
    if(peso < bicileggera.peso){
       bicileggera = {nome: nomebici, peso: peso }
-      console.log(`la bici più leggera è ${bicileggera.nome} e pesa ${bicileggera.peso}kg`)
+      
    }
  });
+ console.log(`la bici più leggera è ${bicileggera.nome} e pesa ${bicileggera.peso}kg`)
+ 
 
  const squadreDiCalcio = [
    { nome: 'Squadra1',
